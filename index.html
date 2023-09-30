@@ -1,0 +1,411 @@
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <title>That Time I got Reincarnated as a Slime</title>
+    <style>
+        html{
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+          .brand-logo .sidenav {
+        font-family: "Gugi",cursive;
+       }
+       .nav-wrapper{
+        background-color:#020829;
+        letter-spacing: 1px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       }
+       
+        header{
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            /* background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3)); */
+            background-color: rgba(27,33,52,.4);
+            position: relative;
+            padding: 0 5%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-size: cover;
+            background-position: center;
+            min-height: 1000px;
+        }
+        @media screen and (max-width: 670px){
+            header{
+                min-height: 500px;
+            }
+
+        }
+       .sidenav{
+        background: url(img/sidenav4.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        }
+        .back-video {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    
+        }
+
+        video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+ 
+
+        }
+        .intro {
+            color: white;
+            background-color: transparent;
+            font-size: larger;
+            max-width: 800px; 
+            margin: 0 auto;
+            padding: 20px;
+        }
+    
+        .banner img{
+            max-width: 100%; 
+            width: auto; 
+            height: auto; 
+            position: relative;
+        }
+        .intro {
+            color: white;
+            font-size: 20px;
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px;
+            text-align:center;
+        }
+        p::after {
+        content: none;
+
+        }
+        h3{
+            text-align: center;
+            font-family: "Gugi",'cursive';
+            color: white;
+            font-size: 50px;       
+        }
+        section p{
+            text-align: justify;
+        }
+        
+        .row {
+            color: white;
+            font-family: 'Apple Chancery', 'cursive';
+            font-size: 20px;
+            
+            
+
+        }
+        
+
+        .container p {
+            color: white;
+        }
+        
+        .parallax-container {
+            position: relative;
+            overflow: hidden;
+            height: 300px;
+            border-radius: 1000px;
+        }
+        
+   
+       
+        .container{
+            width: 100%;
+            margin: 0 auto;
+        }
+        .containerpara {
+            font-family: 'Apple Chancery', 'cursive';
+            font-size: 20px;
+            color: white;
+            background-image: linear-gradient(90deg, rgba(8, 24, 36, 0.489) 1%, rgba(20, 28, 30, 0.944) 99%);
+            border-radius: 10px;
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .containerpara img{
+            border-radius: 30px;
+            
+        }
+        .ycontainer{
+            display: flex;
+            justify-content: space-evenly;
+          
+        }
+
+        .col.offset-l1 p{
+            text-align: justify;
+        }
+        
+        .ycontainer{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                gap: 20px;
+        }
+        .video{
+        
+          max-width: 100%;
+        }
+        @media screen and (max-width: 768px) {
+            .video {
+                max-width: 100%; 
+                display: block;
+            }
+        }
+     
+        .Home_end{
+            background: url(img/staff-bg.jpg);
+            background-position: center;
+        }
+        .appinfo_title{
+            justify-content: center;
+            text-align: center;
+        }
+        .page-footer{
+        background-color:#020829;
+
+        }
+        .scrollTop{
+            position: fixed ;
+            bottom: 30px;
+            right: 30px;
+            
+        }
+
+        
+        .container ul li a:hover {
+            font-weight: bolder;
+            transform: scale(1.1);
+        }
+
+        .page-footer a:hover{
+            text-decoration: underline;
+        }
+       
+
+
+
+        
+       
+    
+
+        
+        
+   
+    </style>    
+</head>
+<body>
+     <div class="hero">
+            <video autoplay loop muted play-inline class="back-video">
+                <source src="img/Rimuru acquires predator, and great sage.mp4" type="video/mp4">
+            </video>
+            <header class="scrollspy" id="Home">
+              <article class="intro">
+                <p>Experience an extraordinary twist on the concept of reincarnation in "That Time I Got Reincarnated as a Slime," affectionately known as "Tensura." Follow the journey of Satoru Mikami, a once ordinary corporate worker, as he's reborn into a fantastical world as a sentient slime with incredible powers.
+
+                    In this vibrant realm of magic and mythical creatures, Rimuru Tempest, as he becomes known, seeks to unite different races, forge alliances, and redefine heroism. Join him in a tale of self-discovery, friendship, and boundless potential, where even the humblest beings can leave an indelible mark on the world.
+                    
+                    Prepare to be enchanted by the legend of Rimuru Tempest, the slime who defied destiny and became a symbol of hope for all.</p>
+              </article>
+               <div class="banner">
+                    <img src="img/satoru.png" alt="front" class="responsive-img " >
+               </div>
+
+                
+                <nav class="nav-wrapper">
+                    <div class="container">
+                        <a href="#" class="brand-logo">Tensura</a>
+                        <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                            <i class="material-icons">menu</i>
+                        </a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#game">Game</a></li>
+                            <li><a href="/prelims/index2.html">Charaters</a></li>
+                            <li><a href="/news/index3.html">News</a></li>
+                            <li><a href="#about">About</a></li>
+                       
+                        </ul>
+                        <ul class="sidenav " id="mobile-links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="/prelims/index2.html">Charaters</a></li>
+                            <li><a href="/news/index3.html">News</a></li>
+                            <li><a href="#about">About</a></li>
+                            
+                        </ul>
+                    </div>  
+                </nav>
+               </header>
+     </div>
+
+     
+       <br>
+         
+       <div class="parallax-container ">
+            <div class="parallax">
+                <img src="img/Isekai-Memories2.png" alt="parashit" >
+            </div>
+       </div>
+       
+
+       <h3 class="scrollspy" id="game"><strong>ISEKAI MEMORIES</strong></h3 >
+       <div class="containerpara">
+        <div class="row">
+            <div class="col s12 l4 ">
+                <img src="img/rmemories.png" alt="" class="responsive-img">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <span><h1>🌟Welcome to the extraordinary world of "That Time I Got Reincarnated as a Slime: ISEKAI Memories!"🌟</h1>
+               <p></span>
+                <br>
+
+                Prepare to embark on an epic journey like no other, where your wildest isekai dreams come to life! Are you ready to dive headfirst into the enchanting realm of Rimuru Tempest and his friends? This is your chance to step into their shoes and rewrite the destiny of this fantastic universe.
+                
+                In "That Time I Got Reincarnated as a Slime: ISEKAI Memories," you'll not only relive the incredible moments from the beloved anime series but also forge your own path in this sprawling, magical world. Join Rimuru and his companions on thrilling adventures, encounter fierce monsters, and make alliances that will shape the course of history.
+                
+                Whether you're a fan of the anime, manga, or simply crave a new isekai experience, this game offers you a chance to immerse yourself in a captivating storyline, master the art of tactical combat, and assemble an unbeatable team of characters from the series. Unleash your strategic prowess, and let your creativity run wild as you take on challenging quests and face formidable foes.
+                
+                But it's not just about battles and quests; "That Time I Got Reincarnated as a Slime: ISEKAI Memories" also offers a rich social aspect. Connect with fellow adventurers, form guilds, and strategize with friends to conquer dungeons and raid bosses. The bonds you forge will be your greatest strength on this epic adventure.
+                
+                So, fellow isekai traveler, the doors to this extraordinary world are wide open. Gather your courage, sharpen your skills, and prepare to be enchanted by the magic of "That Time I Got Reincarnated as a Slime: ISEKAI Memories." Your adventure awaits, and the destiny of this world lies in your hands! Join us now and create your own legacy in this incredible universe! 🌏✨</p>
+            </div>
+        </div>
+       </div>
+
+       <div class="parallax-container">
+            <div class="parallax">
+                <img src="img/isekaimem.jpg" alt="parashit">
+            </div>
+       </div>
+            
+         <div class="Home_end">
+            <div class="Home_end_cover"></div>
+            <br>
+            <h3><strong>GAME INTRODUCTION</strong></h3>
+            <br><br>
+            <div class="ycontainer">    
+                <div class="video">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/OniwxuEJ9LI?si=qXTY4j9vCOELtyf6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/qZqyRWfcoV8?si=G5tw9hF1KKSKwvAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/YfIZahPXfpo?si=S681uyR2rJRdNC-q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        
+                </div>
+                <div class="video">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/SqdeDAbejkQ?si=vEveeVgpvbsooqdz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <br><br>
+            
+                <div class="Home_end_appinfo">
+                    <div class="row">
+                        <div class="appinfo_title">
+                            <div class="col s12 l6 offset-l1">
+                                <h2>App Info</h2>
+                                <div><span class="end_title">Title:</span> That Time I Got Reincarnated as a Slime: ISEKAI Memories</div>
+                                <div><span class="end_title">Price:</span> Free to Play with In-App Purchases</div>
+                                <div><span class="end_title">Genre:</span> Nation Building 3D Battle RPG</div>
+                                <div><span class="end_title">Available for:</span>App Store & Google Play & Google Play Games Beta on PC</div>
+                            </div>
+                        </div>
+                        <div class="dl_Img">
+                            <div class="col s12 l4">
+                                <a href="https://play.google.com/store/apps/details?id=com.bandainamcoent.tensuramrkww&hl=en&gl=US"><img src="/img/dl pic.png" alt="playstore" class="responsive-img"></a>
+                               
+     
+                             </div>
+                        </div>
+                        
+                </div>
+                <footer class="page-footer">
+                    <div class="container_footer ">
+                        <div class="row">  
+                            <div class="col s12 l6 push-l1 " id="about">
+                                <h5>About</h5>
+                                <p>Please Note: This website is not an official platform associated with any organization, brand, or entity. It is created exclusively for educational purposes as part of a school project. The content provided here is not endorsed or authorized by any official entity or copyright holder. The primary aim of this website is to demonstrate the skills and knowledge acquired during our educational journey. It serves as a practical project, allowing us to apply what we've learned in web development, design, and content creation.</p>
+                            </div>
+
+                            <div class="col s12 l4 offset-l1">
+                                <h5>Contact Us</h5>
+                                <p>If you have any questions, feedback, or concerns about this website, please feel free to contact us. We welcome your input and will do our best to address any inquiries promptly.
+
+                                    Thank you for visiting our website, and we hope you enjoy exploring the content we've prepared as part of our educational journey.</p>
+                                <ul>
+                                    
+                                    <li><a href="https://www.facebook.com/slime.anime" class="Blue-text">Facebook</a></li>
+                                    <li><a href="https://twitter.com/slimeanime?lang=en" class="Blue-text">Twitter</a></li>
+                                    <li><a href="https://www.instagram.com/slimeanime/" class="Blue-text">Instragram</a></li>
+                                    <li><a href="https://mail.google.com/mail/u/0/#inbox">@chansy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div onclick="scorllTOTop()" class="scrollTop hide-on-med-and-down"><img src="img/footer-top.png" alt=""></div>
+
+                    </div>
+                        <div class="footer-copyright">
+                            <div class="container center-align">&copy; 2023 Tensura</div>
+                        </div>
+                </footer>
+
+        
+
+
+
+       
+
+  
+     
+        
+    
+
+        
+
+       
+
+
+    <script src="materialize/js/jquery.js"></script>
+    <script src="materialize/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.parallax').parallax();
+            $('.scrollspy').scrollSpy();
+        });
+        
+    </script>
+    <script>
+        function scorllTOTop(){
+            window.scrollTo(0,0)
+        }
+    </script>
+</body>
+</html>
